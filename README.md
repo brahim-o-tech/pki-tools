@@ -35,6 +35,25 @@ Generates a Certificate Signing Request (CSR) with Subject Alternative Names (SA
 .\New-CSRWithSAN.ps1
 .\New-CSRWithSAN.ps1 -OutputPath "D:\PKI\CSRs"
 ```
+### Screenshots
+
+![GUI Form](docs/images/01-csr-generation-GUI.png)
+*CSR generation form*
+
+![SAN entries](docs/images/02-csr-generation-with-san.png)
+*SAN DNS and IP entries*
+
+![certutil dump](docs/images/03-csr-generation-certutil-dump.png)
+*CSR validation with certutil*
+
+![CSR OK](docs/images/04-csr-generation-obj-ok.png)
+*Successful CSR generation*
+
+![SAN output](docs/images/05-csr-generation-with-san.png)
+*CSR output with SAN*
+
+![Cleanup](docs/images/06-csr-generation-clean.png)
+*Save and cleanup*
 
 ---
 
