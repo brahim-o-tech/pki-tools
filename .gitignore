@@ -55,3 +55,24 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+# PowerShell
+*.ps1xml
+*.psm1.bak
+*.psd1.bak
+
+# Logs and transcripts
+*.log
+
+# PKI sensitive files — never commit these
+*.inf
+*.csr
+*.cer
+*.pfx
+*.pem
+*.key
+*.pwd
+
+# Output folders
+output/
+csv/
